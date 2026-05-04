@@ -66,3 +66,20 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.dark {
+  background-color: #121212;
+  color: white;
+}
+.dark button,
+.dark select {
+  background-color: #1e1e1e;
+  color: #f6f6f6;
+  border-color: #444;
+}
+.dark button:hover {
+  border-color: #7c90ff;
+}
+.dark select {
+  padding: 0.5em 0.75em;
+  border-radius: 0.5em;
+}
